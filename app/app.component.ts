@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
+import { Chore } from './chore/chore.component'
 
 @Component({
     selector: 'my-app',
-    template: `<h1>Hello Angular</h1>`
+    template: `<Chore></Chore>`
 })
 export class AppComponent { }
